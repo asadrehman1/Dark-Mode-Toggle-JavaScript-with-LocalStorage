@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    transition: background-color .5s ease-in;
+}
+
+.toggle-container {
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.722);
+    margin-left: 3px;
+    cursor: pointer;
+    transition: transform .5s ease-in;
+}
+
+.active {
+    transform: translateX(40px);
+    background-color: black;
+}
+
+.active2 {
+    background-color: black;
+}
